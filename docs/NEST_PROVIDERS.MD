@@ -96,3 +96,10 @@ import { UserController } from './user.controller';
 })
 export class UserModule {}
 ```
+## Resumo
+
+- `Providers` são classes que encapsulam a lógica de negócios ou outras funcionalidades que podem ser injetadas em outras partes da aplicação.
+- `Providers` são definidos com o decorador `@Injectable()` e podem ser injetados em controladores, serviços, ou outros providers.
+- `Módulos` organizam os providers e os disponibilizam para outras partes da aplicação.
+
+Os providers são essenciais para manter o código da aplicação modular, testável e fácil de manter, permitindo que a lógica de negócios seja isolada e reutilizada em diferentes partes da aplicação.
