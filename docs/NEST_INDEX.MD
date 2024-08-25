@@ -26,6 +26,8 @@ O Nest.js é um framework para construção de aplicações server-side eficient
 
 - [Configuração com ConfigService](./NEST_CONFIG_SERVICE.MD): Aprenda como usar o ConfigService no Nest.js para acessar variáveis de ambiente e outras configurações de forma centralizada.
 
+- [Guards](./NEST_GUARDS.MD): Saiba como os guards no Nest.js controlam o acesso às rotas da sua aplicação, verificando se uma requisição pode prosseguir ou deve ser bloqueada.
+
 - [Factory Providers](./NEST_FACTORY.MD): Saiba como usar factory providers no Nest.js para criar instâncias de dependências de forma dinâmica e flexível.
 
 - [Middlewares](./NEST_MIDDLEWARES.MD): Entenda como os middlewares no Nest.js interceptam requisições HTTP e podem ser usados para adicionar funcionalidades comuns a várias rotas.
