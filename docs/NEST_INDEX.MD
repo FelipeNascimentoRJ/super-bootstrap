@@ -31,3 +31,5 @@ O Nest.js é um framework para construção de aplicações server-side eficient
 - [Factory Providers](./NEST_FACTORY.MD): Saiba como usar factory providers no Nest.js para criar instâncias de dependências de forma dinâmica e flexível.
 
 - [Middlewares](./NEST_MIDDLEWARES.MD): Entenda como os middlewares no Nest.js interceptam requisições HTTP e podem ser usados para adicionar funcionalidades comuns a várias rotas.
+
+- [Interceptors](./NEST_INTERCEPTORS.MD): Descubra como os interceptors no Nest.js permitem transformar dados de requisições e respostas, gerenciar exceções e modificar o comportamento da lógica de execução.
