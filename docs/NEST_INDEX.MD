@@ -33,3 +33,5 @@ O Nest.js é um framework para construção de aplicações server-side eficient
 - [Middlewares](./NEST_MIDDLEWARES.MD): Entenda como os middlewares no Nest.js interceptam requisições HTTP e podem ser usados para adicionar funcionalidades comuns a várias rotas.
 
 - [Interceptors](./NEST_INTERCEPTORS.MD): Descubra como os interceptors no Nest.js permitem transformar dados de requisições e respostas, gerenciar exceções e modificar o comportamento da lógica de execução.
+
+- [Pipes](./NEST_PIPES.MD): Saiba como os pipes no Nest.js transformam e validam os dados de entrada antes que sejam processados pelos controladores, garantindo a integridade e consistência dos dados.
