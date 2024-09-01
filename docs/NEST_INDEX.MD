@@ -39,3 +39,5 @@ O Nest.js é um framework para construção de aplicações server-side eficient
 - [Filtros de Exceção](./NEST_FILTER_EXCEPTION.MD): Aprenda como os filtros de exceção no Nest.js capturam e tratam exceções de forma centralizada, permitindo personalizar as respostas de erro da aplicação.
 
 - [Decoradores Personalizados](./NEST_CUSTOM_DECORATORS.MD): Descubra como os decoradores personalizados no Nest.js permitem adicionar metadados ou lógica personalizada a classes, métodos, parâmetros ou propriedades, estendendo a funcionalidade de controladores, serviços e outros componentes.
+
+- [Microserviços](./NEST_MICROSERVICES.MD): Entenda como o Nest.js suporta a criação de microserviços, permitindo a comunicação entre diferentes instâncias da aplicação de forma eficiente e escalável.
