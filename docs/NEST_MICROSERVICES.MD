@@ -313,17 +313,15 @@ Vamos criar um exemplo completo de `microserviços` usando `NestJS` com `RabbitM
       - `GET /math/sum?a=2&b=3`: Retorna a soma de 2 e 3.
       - `GET /math/subtract?a=5&b=2`: Retorna a subtração de 5 e 2.
 
-  **Passo 3.4: Executar o Cliente**
+  **Passo 3.4: Executar o Cliente**: No terminal, dentro do diretório `math-client`, execute:
 
-    No terminal, dentro do diretório `math-client`, execute:
+  ```bash
+  npm run start
+  ```
+  
+   Você deve ver a mensagem: `Math Client is listening on port 3000`
 
-    ```bash
-    npm run start
-    ```
-
-    Você deve ver a mensagem: `Math Client is listening on port 3000`
-
-4. **Testar a Comunicação Entre os Microsserviços**
+1. **Testar a Comunicação Entre os Microsserviços**
 
    - **Testar a Operação de Soma**: Abra o navegador e vá para http://localhost:3000/math/sum?a=2&b=3. Você deve ver o resultado `5`.
 
@@ -337,7 +335,7 @@ Vamos criar um exemplo completo de `microserviços` usando `NestJS` com `RabbitM
 
    - **Flexibilidade**: Você pode adicionar mais microsserviços ou clientes conforme necessário, mantendo a flexibilidade da arquitetura.
 
-5. **Verificar Logs**
+2. **Verificar Logs**
 
    - `Microserviço`: No terminal do microserviço (`math-microservice`), você pode adicionar logs para verificar se as mensagens estão sendo recebidas e processadas.
 
@@ -410,7 +408,7 @@ Vamos criar um exemplo completo de `microserviços` usando `NestJS` com `RabbitM
     }
     ```
 
-6. **Considerações Finais**
+3. **Considerações Finais**
 
     - **Segurança**: Certifique-se de adicionar medidas de segurança, como autenticação e autorização, para proteger a comunicação entre os microsserviços.
   
